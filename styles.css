@@ -1,0 +1,49 @@
+.container{
+    background-color: blueviolet;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    margin-left:10px;
+    margin-right: 10px;
+    background-color: crimson;
+    color: black;
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box p{
+    font-size: 20px;
+    color: #000;
+}
+
+button {
+    background: black;
+    color: #fff;
+    width: 230px;
+    height: 80px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.img-responsive{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+@media (max-width: 600px){
+    .container{
+        background: cyan;
+        flex-direction: column;
+    }
+
+}
